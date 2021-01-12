@@ -1,0 +1,131 @@
+#prizeTable {
+  border: solid 1px #cccccc;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+#tableHeader {
+  border: 0;
+  border-collapse: collapse;
+  width: 610px;
+  border: solid 2px #cccccc;
+}
+tr {
+  height: 40px;
+  text-align: center;
+}
+th {
+  padding: 5px;
+  font-size: 17px;
+  color: #f65c6c;
+}
+td {
+  color: #0f0e0f;
+}
+
+/* input[type="button"] {
+  background-color: #58257b; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn {
+  color: #fff;
+  padding: 20px 100px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  text-shadow: -2px 2px 0 rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+  transition: all 0.1s linear;
+  background: linear-gradient(to bottom, #977d60, #685642);
+  box-shadow: -1px 0 1px #584938, 0 1px 1px #584938, -2px 1px 1px #584938,
+    -1px 2px 1px #584938, -3px 2px 1px #584938, -2px 3px 1px #584938,
+    -4px 3px 1px #584938, -3px 4px 1px #493c2e, -5px 4px 1px #493c2e,
+    -4px 5px 1px #493c2e, -6px 5px 1px #493c2e;
+}
+.btn:active {
+  box-shadow: none;
+  -moz-transform: translate3d(-6px, 6px, 0);
+  -ms-transform: translate3d(-6px, 6px, 0);
+  -webkit-transform: translate3d(-6px, 6px, 0);
+  transform: translate3d(-6px, 6px, 0);
+} */
+/* input[type="button"],
+input[type="button"]::after {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+input[type="button"] {
+  background: none;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 1em auto;
+  padding: 2em 6em;
+  position: relative;
+  text-transform: uppercase;
+} */
+
+/* .btn::after {
+  background: #fff;
+  content: "";
+  position: absolute;
+  z-index: -1;
+}
+
+.btn:hover {
+  color: #2ecc71;
+}
+.btn:hover:after {
+  width: 100%;
+} */
+
+.bttn-jelly bttn-sm bttn-danger {
+  color: black;
+}
+
+body {
+  margin: 40px;
+  text-align: center;
+}
+
+hr {
+  width: 500px;
+}
+
+.filebox label {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #999;
+  font-size: inherit;
+  line-height: normal;
+  vertical-align: middle;
+  background-color: #fdfdfd;
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  border-bottom-color: #e2e2e2;
+  border-radius: 0.25em;
+}
+.filebox input[type="file"] {
+  /* 파일 필드 숨기기 */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

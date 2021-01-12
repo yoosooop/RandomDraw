@@ -109,8 +109,9 @@ input[type="button"] {
 }
 
 body {
-  margin: 20px;
+  margin: 5px;
   text-align: center;
+  padding: auto;
 }
 
 hr {
@@ -232,7 +233,7 @@ span {
 
 /* Akira */
 .input--akira {
-  margin-top: 2em;
+  /* margin-top: 2em; */
 }
 .input__field--akira {
   position: absolute;
@@ -267,8 +268,8 @@ span {
   width: 100%;
   height: 100%;
   background: white;
-  -webkit-transform: scale3d(0.96, 0.85, 1);
-  transform: scale3d(0.96, 0.85, 1);
+  -webkit-transform: scale3d(0.97, 0.88, 1);
+  transform: scale3d(0.97, 0.88, 1);
   -webkit-transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
   border-radius: 60px;
@@ -280,8 +281,8 @@ span {
 
 .input__field--akira:focus + .input__label--akira::before,
 .input--filled .input__label--akira::before {
-  -webkit-transform: scale3d(0.97, 0.89, 1);
-  transform: scale3d(0.97, 0.89, 1);
+  -webkit-transform: scale3d(0.99, 0.95, 1);
+  transform: scale3d(0.99, 0.95, 1);
   border-radius: 60px;
 }
 

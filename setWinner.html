@@ -372,7 +372,6 @@
         if (isPrize != 0) {
           return;
         }
-
         $("td.winnerTd").text("");
 
         winnerArray = [];
@@ -411,7 +410,9 @@
               "<td>" + inExcelJSON[winnerArray[index]][tmpK] + "</td>";
           }
 
-          $(item).append(tmpString);
+          setTimeout(function () {
+            $(item).append(tmpString);
+          }, 3000);
         });
       }
 

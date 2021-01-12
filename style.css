@@ -129,3 +129,12 @@ hr {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+
+.card {
+  box-shadow: 0 4px 8px rgb(0 0 0 /12%);
+  display: inline-block;
+  margin: auto;
+  padding: 20px;
+  width: 500px;
+  border-radius: 10px;
+}

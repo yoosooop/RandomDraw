@@ -20,7 +20,7 @@
     <div class="card">
       <div class="filebox">
         <span> <h2>이벤터스 참여 명단 [엑셀]</h2> </span>
-        <hr />
+        <!-- <hr /> -->
         <input class="upload-name" value="파일선택" disabled="disabled" />
         <label for="fileUpload">파일 업로드</label>
         <input type="file" id="fileUpload" class="upload-hidden" />
@@ -29,7 +29,7 @@
           id="upload"
           value="테이블 등록"
           onclick="Upload();"
-          class="bttn-jelly bttn-sm bttn-danger"
+          class="upload-name"
         />
       </div>
     </div>
@@ -41,7 +41,8 @@
     <button class="bttn-pill bttn-sm bttn-warning">small</button>
     <button class="bttn-fill bttn-md bttn-primary">medium</button>
     <button class="bttn-jelly bttn-sm bttn-danger">small</button>
-    <button class="bttn-bordered bttn-md bttn-default">medium</button>
+    <button class="bttn-pill bttn-md bttn-danger">medium</button>
+    <button class="bttn-unite bttn-md bttn-danger">medium</button>
     <br /><br /><br /><br />
     <div class="card">
       <span> <h2>💛 이벤트 상품 💛</h2> </span>
@@ -85,9 +86,8 @@
 
     <div class="card">
       <span> <h2>🥳 두근두근 상품 추첨 🥳</h2></span>
-      <hr />
-      <button class="bttn-pill bttn-md bttn-danger">medium</button>
-      <button class="bttn-unite bttn-md bttn-danger">medium</button>
+      <br />
+      <!-- <hr /> -->
       <input
         type="button"
         value="START"
@@ -101,7 +101,7 @@
     <br />
     <div class="card">
       <span><h2>이벤트 결과</h2></span>
-      <hr />
+      <!-- <hr /> -->
       <table cellspacing="0" id="prizeTable">
         <tr id="tableHeader">
           <th>번호</th>
@@ -115,7 +115,7 @@
 
     <div class="card">
       <span><h4>--추첨 결과 저장하기--</h4></span>
-      <hr />
+      <!-- <hr /> -->
       <input
         type="button"
         value="추첨 결과 저장"
@@ -128,7 +128,7 @@
 
     <div class="card">
       <span><h4>--추첨 결과 리셋하기--</h4></span>
-      <hr />
+      <!-- <hr /> -->
       <input
         type="button"
         value="추첨 결과 리셋"

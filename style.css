@@ -152,3 +152,7 @@ hr {
   width: 500px;
   border-radius: 10px;
 }
+
+span {
+  line-height: 10px;
+}

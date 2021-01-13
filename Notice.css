@@ -1,0 +1,46 @@
+.card {
+  box-shadow: 0 4px 8px rgb(0 0 0 /12%);
+  display: inline-block;
+  margin: 30px;
+  padding: 30px;
+  width: 800px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+span {
+  line-height: 10px;
+}
+.all {
+  position: absolute;
+  top: 50%;
+  height: 800px;
+  margin-top: -400px;
+}
+
+body {
+  margin: auto;
+  text-align: center;
+  padding: auto;
+}
+
+hr {
+  width: 500px;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+a:link {
+  text-decoration: none;
+  color: red;
+}
+a:visited {
+  text-decoration: none;
+  color: red;
+}
+
+h3 {
+  text-align: left;
+}

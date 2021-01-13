@@ -28,19 +28,28 @@ hr {
   width: 500px;
 }
 
-a {
+.go,
+.gather {
   text-decoration: none;
   text-align: center;
 }
-a:link {
+.go:link {
   text-decoration: none;
   color: red;
 }
-a:visited {
+.go:visited {
   text-decoration: none;
   color: red;
 }
 
 h3 {
   text-align: left;
+}
+.gather:link {
+  text-decoration: none;
+  color: black;
+}
+.gather:visited {
+  text-decoration: none;
+  color: black;
 }

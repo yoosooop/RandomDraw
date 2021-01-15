@@ -1,11 +1,11 @@
 .card {
   box-shadow: 0 4px 8px rgb(0 0 0 /12%);
   display: inline-block;
-  margin: 30px;
+  margin: 10px;
   padding: 30px;
-  width: 800px;
+  width: 900px;
   border-radius: 10px;
-  text-align: left;
+  position: relative;
 }
 
 span {
@@ -14,8 +14,8 @@ span {
 .all {
   position: absolute;
   top: 50%;
-  height: 800px;
-  margin-top: -400px;
+  height: 850px;
+  margin-top: -425px;
 }
 
 body {
@@ -35,13 +35,14 @@ hr {
 }
 .go:link {
   text-decoration: none;
-  color: red;
+  color: #ff5964;
 }
 .go:visited {
   text-decoration: none;
-  color: red;
+  color: #ff5964;
 }
 
+h1,
 h3 {
   text-align: left;
 }

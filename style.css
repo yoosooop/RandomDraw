@@ -186,7 +186,7 @@ span {
   cursor: text;
 }
 .input__label-content.input__label-content--akira {
-  color: red;
+  color: #ff5964;
   font-size: 13px;
   text-align: left;
   padding: 20px;

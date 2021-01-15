@@ -36,10 +36,12 @@ hr {
 }
 .go:link {
   text-decoration: none;
+  font-weight: bold;
   color: #ff5964;
 }
 .go:visited {
   text-decoration: none;
+  font-weight: bold;
   color: #ff5964;
 }
 

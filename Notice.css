@@ -32,6 +32,7 @@ hr {
 .gather {
   text-decoration: none;
   text-align: center;
+  font-weight: bold;
 }
 .go:link {
   text-decoration: none;
